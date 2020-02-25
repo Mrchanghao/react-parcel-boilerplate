@@ -1,0 +1,24 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --detailed-report"
+  },
+  "dependencies": {
+    "assets": "^3.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.0"
+  }
+}
