@@ -30,7 +30,7 @@ import reactImage from '../../assets/react.png'
 ```
 
 .babelrc에 지정된 디렉토리를 입력 해 준다. 
-```json
+```js
 [
       "module-resolver",
       {
